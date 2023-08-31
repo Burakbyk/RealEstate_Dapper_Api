@@ -16,10 +16,10 @@ namespace RealEstate_Dapper_UI.ViewComponents.HomePage
         }
 
         public async Task<IViewComponentResult> InvokeAsync()
-        {
+        { 
             //Api Consume etme
             var client = _httpClientFactory.CreateClient();
-            var responseMessage = await client.GetAsync("https://localhost:44321/api/Products/ProductListWithCategory");
+            var responseMessage = await client.GetAsync("https://localhost:7125/api/Products/ProductListWithCategory");
             if (responseMessage.IsSuccessStatusCode)
             {
                 var jsonData = await responseMessage.Content.ReadAsStringAsync();
@@ -30,4 +30,3 @@ namespace RealEstate_Dapper_UI.ViewComponents.HomePage
         }
     }
 }
-
