@@ -43,7 +43,7 @@ namespace RealEstate_Dapper_Api.Repositories.CategoryRepository
 
         }
 
-        public async Task<List<ResultCategoryDto>> GetAllCategoryAsync()
+        public async Task<List<ResultLocationDto>> GetAllCategoryAsync()
         {
 
             string query = "Select * From Category";
@@ -51,7 +51,7 @@ namespace RealEstate_Dapper_Api.Repositories.CategoryRepository
             using(var connection = _context.CreateConnection())
             {
                 
-                var values = await connection.QueryAsync<ResultCategoryDto>(query);
+                var values = await connection.QueryAsync<ResultLocationDto>(query);
                 return values.ToList();
                 
             
