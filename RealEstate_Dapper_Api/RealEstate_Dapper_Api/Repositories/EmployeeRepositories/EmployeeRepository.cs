@@ -91,16 +91,10 @@ namespace RealEstate_Dapper_Api.Repositories.EmployeeRepositories
             using(var connection = _context.CreateConnection())
             {
 
-                try
-                {
+               
                     await connection.ExecuteAsync(query, updateEmployeeDto);
-                }
-                catch (Exception ex)
-                {
-
-                    var aa = ex.Message;
-                    
-                }
+                
+              
              
 
             }

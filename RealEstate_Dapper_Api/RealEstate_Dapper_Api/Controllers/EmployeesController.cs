@@ -48,7 +48,7 @@ namespace RealEstate_Dapper_Api.Controllers
         }
 
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteEmployee(int id)
         {
             _employeeRepository.DeleteEmploye(id);

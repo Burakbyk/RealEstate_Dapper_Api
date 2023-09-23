@@ -5,6 +5,26 @@
       "PackagePath": "staticwebassets\\RealEstate_Dapper_UI.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Burak\\Documents\\GitHub\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api\\RealEstate_Dapper_UI\\wwwroot\\EmployeeImages\\30c205a1-0e1c-491d-b862-3b8a29db2089.jpg",
+      "PackagePath": "staticwebassets\\EmployeeImages\\30c205a1-0e1c-491d-b862-3b8a29db2089.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Burak\\Documents\\GitHub\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api\\RealEstate_Dapper_UI\\wwwroot\\EmployeeImages\\43283cf7-b765-47dc-a000-7a58667e1f3c.jpg",
+      "PackagePath": "staticwebassets\\EmployeeImages\\43283cf7-b765-47dc-a000-7a58667e1f3c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Burak\\Documents\\GitHub\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api\\RealEstate_Dapper_UI\\wwwroot\\EmployeeImages\\b90438a8-ac1c-434d-91dd-6d04f3ae8119.jpg",
+      "PackagePath": "staticwebassets\\EmployeeImages\\b90438a8-ac1c-434d-91dd-6d04f3ae8119.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Burak\\Documents\\GitHub\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api\\RealEstate_Dapper_UI\\wwwroot\\EmployeeImages\\dfe05e11-4894-410b-9801-3c08173387e8.jpg",
+      "PackagePath": "staticwebassets\\EmployeeImages\\dfe05e11-4894-410b-9801-3c08173387e8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Burak\\Documents\\GitHub\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api\\RealEstate_Dapper_UI\\wwwroot\\EmployeeImages\\e251ccc2-d499-4fe4-acea-e279879aef79.jpg",
+      "PackagePath": "staticwebassets\\EmployeeImages\\e251ccc2-d499-4fe4-acea-e279879aef79.jpg"
+    },
+    {
       "Id": "C:\\Users\\Burak\\Documents\\GitHub\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api\\RealEstate_Dapper_UI\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
