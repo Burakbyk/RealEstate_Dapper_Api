@@ -12,7 +12,7 @@
 
         public string district { get; set; }
 
-        public string categoryName { get; set; }
+        public string categoryid { get; set; }
 
         public string coverimage { get; set; }
 

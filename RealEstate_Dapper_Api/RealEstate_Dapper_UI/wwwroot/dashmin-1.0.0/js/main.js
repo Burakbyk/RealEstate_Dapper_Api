@@ -205,3 +205,20 @@
     
 })(jQuery);
 
+
+var currentPageURL = window.location.href;
+
+// Tüm dropdown-item baðlantýlarýný al
+var dropdownItems = document.querySelectorAll('.dropdown-item');
+
+// Her bir baðlantýyý kontrol et
+dropdownItems.forEach(function (item) {
+    // Baðlantýnýn href özelliðini al
+    var linkURL = item.getAttribute('href');
+
+    // Eðer þu anki sayfanýn URL'si baðlantýnýn URL'si ile eþleþiyorsa
+    if (currentPageURL.indexOf(linkURL) !== -1) {
+        // active sýnýfýný ekleyin
+        item.classList.add('active');
+    }
+});
