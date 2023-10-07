@@ -20,9 +20,11 @@ namespace RealEstate_Dapper_Api.Repositories.EmployeeRepositories
            
                 string query = "Insert Into Employee ([Name],[Title],[Mail],[PhoneNumber],[ImageUrl],[Status]) values (@Name,@Title,@Mail,@PhoneNumber,@ImageUrl,@Status)";
 
+         
                 using (var connection = _context.CreateConnection())
                 {
 
+                    createEmployeeDto.Status = true;
 
                     await connection.ExecuteAsync(query, createEmployeeDto);
 
@@ -101,5 +103,7 @@ namespace RealEstate_Dapper_Api.Repositories.EmployeeRepositories
 
 
         }
+
+      
     }
 }

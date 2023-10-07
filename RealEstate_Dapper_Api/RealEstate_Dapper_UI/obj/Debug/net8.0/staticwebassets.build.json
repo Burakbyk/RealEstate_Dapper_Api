@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Jn7GLppvoXsAJAKsW1v49TvC1KZWWqROfBxtOzXso84=",
+  "Hash": "m5Sr11l/qowS1tTcnacIZDo34m8NjO6v6lG68yFGFLM=",
   "Source": "RealEstate_Dapper_UI",
   "BasePath": "_content/RealEstate_Dapper_UI",
   "Mode": "Default",
@@ -2485,6 +2485,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\EmployeeImages\\43283cf7-b765-47dc-a000-7a58667e1f3c.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Burak\\Documents\\GitHub\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api\\RealEstate_Dapper_UI\\wwwroot\\EmployeeImages\\a6f7854f-dd18-468f-b03a-92277485d824.png",
+      "SourceId": "RealEstate_Dapper_UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Burak\\Documents\\GitHub\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api\\RealEstate_Dapper_UI\\wwwroot\\",
+      "BasePath": "_content/RealEstate_Dapper_UI",
+      "RelativePath": "EmployeeImages/a6f7854f-dd18-468f-b03a-92277485d824.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\EmployeeImages\\a6f7854f-dd18-468f-b03a-92277485d824.png"
     },
     {
       "Identity": "C:\\Users\\Burak\\Documents\\GitHub\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api\\RealEstate_Dapper_UI\\wwwroot\\EmployeeImages\\b90438a8-ac1c-434d-91dd-6d04f3ae8119.jpg",
