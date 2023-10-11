@@ -5,6 +5,7 @@ using RealEstate_Dapper_Api.Repositories.EmployeeRepositories;
 using RealEstate_Dapper_Api.Repositories.LocationRepositories;
 using RealEstate_Dapper_Api.Repositories.ProductRepository;
 using RealEstate_Dapper_Api.Repositories.ServiceRepository;
+using RealEstate_Dapper_Api.Repositories.StatisticRepositories;
 using RealEstate_Dapper_Api.Repositories.TestimonialRepositories;
 using RealEstate_Dapper_Api.Repositories.WhoWeAreRepository;
 
@@ -23,6 +24,8 @@ builder.Services.AddTransient<ILocationRepository, LocationRepository>();
 
 builder.Services.AddTransient<ITestimonialRepository, TestimonialRepository>();
 builder.Services.AddTransient<IEmployeeRepository, EmployeeRepository>();
+
+builder.Services.AddTransient<IStatisticRepository, StatisticRepository>();
 
 
 builder.Services.AddControllers();

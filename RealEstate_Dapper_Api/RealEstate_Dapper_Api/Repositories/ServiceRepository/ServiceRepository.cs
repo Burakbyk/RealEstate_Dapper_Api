@@ -13,7 +13,7 @@ namespace RealEstate_Dapper_Api.Repositories.ServiceRepository
             _context = context;
         }
 
-        public async void CreateService(CreateServiceDto createServiceDto)
+        public async void CreateService(CreateStatisticDto createServiceDto)
         {
             string query = "insert into Services (ServiceName,ServiceStatus) values (@serviceName,@serviceStatus)";
             var parameters = new DynamicParameters();
@@ -45,12 +45,12 @@ namespace RealEstate_Dapper_Api.Repositories.ServiceRepository
             }
         }
 
-        public async Task<List<ResultServiceDto>> GetAllServiceAsync()
+        public async Task<List<ResultStatisticDto>> GetAllServiceAsync()
         {
             string query = "Select * From Services";
             using(var connection = _context.CreateConnection())
             {
-              var values =  await connection.QueryAsync<ResultServiceDto>(query);
+              var values =  await connection.QueryAsync<ResultStatisticDto>(query);
 
               return values.ToList();
             
@@ -60,7 +60,7 @@ namespace RealEstate_Dapper_Api.Repositories.ServiceRepository
 
         }
 
-        public async Task<GetByIdServiceDto> GetServiceAsync(int id)
+        public async Task<GetByIdStatisticDto> GetServiceAsync(int id)
         {
             string query = "Select * From Services Where ServiceID=@serviceID";
             var parameters = new DynamicParameters();
@@ -68,12 +68,12 @@ namespace RealEstate_Dapper_Api.Repositories.ServiceRepository
 
             using( var connection = _context.CreateConnection())
             {
-                var value = await connection.QueryFirstOrDefaultAsync<GetByIdServiceDto>(query, parameters);
+                var value = await connection.QueryFirstOrDefaultAsync<GetByIdStatisticDto>(query, parameters);
                 return value;
             }
         }
 
-        public async void UpdateService(UpdateServiceDto updateServiceDto)
+        public async void UpdateService(UpdateStatisticDto updateServiceDto)
         {
             string query = "Update Services Set ServiceName=@serviceName,ServiceStatus=@serviceStatus Where ServiceID=@serviceID";
             var parameters = new DynamicParameters();

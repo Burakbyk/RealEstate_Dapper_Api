@@ -27,7 +27,7 @@ namespace RealEstate_Dapper_Api.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateService(CreateServiceDto createServiceDto)
+        public async Task<IActionResult> CreateService(CreateStatisticDto createServiceDto)
         {
              _serviceRepository.CreateService(createServiceDto);
             return Ok("Servis Oluşturuldu");
@@ -35,7 +35,7 @@ namespace RealEstate_Dapper_Api.Controllers
         }
 
         [HttpPut]
-        public async Task<IActionResult> UpdateService(UpdateServiceDto updateServiceDto)
+        public async Task<IActionResult> UpdateService(UpdateStatisticDto updateServiceDto)
         {
             _serviceRepository.UpdateService(updateServiceDto);
             return Ok("Servis Güncellendi");

@@ -1,6 +1,6 @@
 ﻿namespace RealEstate_Dapper_Api.Dtos.ServiceDtos
 {
-    public class UpdateServiceDto
+    public class UpdateStatisticDto
     {
         public int ServiceID { get; set; }
 
