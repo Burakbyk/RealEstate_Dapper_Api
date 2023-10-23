@@ -54,6 +54,12 @@ namespace RealEstate_Dapper_Api.Controllers
             return Ok(_statisticRepository.AvgRoomCount());
         }
 
+        [HttpGet("CityNameByMaxProductCount")]
+        public IActionResult CityNameByMaxProductCount()
+        {
+            return Ok(_statisticRepository.CityNameByMaxProductCount());
+        }
+
         [HttpGet("CategoryCount")]
         public IActionResult CategoryCount()
         {
@@ -64,6 +70,41 @@ namespace RealEstate_Dapper_Api.Controllers
         public IActionResult CategoryNameByMaxProductCount()
         {
             return Ok(_statisticRepository.CategoryNameByMaxProductCount());
+        }
+        [HttpGet("DiffrentCityCount")]
+        public IActionResult DiffrentCityCount()
+        {
+            return Ok(_statisticRepository.DiffrentCityCount());
+        }
+        [HttpGet("EmployeNameByMaxProductCount")]
+        public IActionResult EmployeNameByMaxProductCount()
+        {
+            return Ok(_statisticRepository.EmployeNameByMaxProductCount());
+        }
+        [HttpGet("LastProductPrice")]
+        public IActionResult LastProductPrice()
+        {
+            return Ok(_statisticRepository.LastProductPrice());
+        }
+        [HttpGet("NewestBuildingYear")]
+        public IActionResult NewestBuildingYear()
+        {
+            return Ok(_statisticRepository.NewestBuildingYear());
+        }
+        [HttpGet("OldestBuildingYear")]
+        public IActionResult OldestBuildingYear()
+        {
+            return Ok(_statisticRepository.OldestBuildingYear());
+        }
+        [HttpGet("PassiveCategoryCount")]
+        public IActionResult PassiveCategoryCount()
+        {
+            return Ok(_statisticRepository.PassiveCategoryCount());
+        }
+        [HttpGet("ProductCount")]
+        public IActionResult ProductCount()
+        {
+            return Ok(_statisticRepository.ProductCount());
         }
     }
 }
